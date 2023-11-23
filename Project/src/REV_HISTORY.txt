@@ -1,0 +1,10 @@
+[F/W History 관리 파일]
+// Main.c 3번째줄 버전 관리
+// float sys_ver = 0.01; 
+
+20210319 V1.00 
+ - 1차 개발완료 PMK
+ - ICT 검사 구현완료
+ - 로그저장 완료
+ - LSI 최신코드 포팅완료(Diff Cap 적용 AM3-V2.08 까지)
+ - RTC SAVE 수정필요함

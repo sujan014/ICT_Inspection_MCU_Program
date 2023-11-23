@@ -1,0 +1,21 @@
+#include "revision.h"
+
+int GetRevision(void)  
+{  
+    return $WCREV$;  
+}  
+
+char GetLocalModificationFind(void)  
+{  
+    return $WCMODS?true:false$;
+}  
+
+const char *GetBuildDate(void)  
+{  
+    return "$WCNOW$";  
+}  
+
+const char *GetSVNURL(void)  
+{  
+    return "$WCURL$";    
+}  
